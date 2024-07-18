@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Shooter Game Introduction</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Shooter Game</h1>
+        <p>Welcome to the Typing Shooter Game! Test your typing skills while fending off waves of enemies. Type the words above the enemies to shoot and eliminate them before they reach you. Aim for high scores and fast typing to become the ultimate defender!</p>
+        <h2>Instructions </h2>
+        <ul>
+            <li>Type the words above the enemies to shoot them.</li>
+            <li>You start with 3 lives. If an enemy touches your character, you lose a life. Be careful!</li>
+            <li>If you lose all your lives, the game is over.</li>
+        </ul>
+        <button id="startBtn">Start Game</button>
+        <div class="copyright">
+            <p>&copy; 2024 surya. All rights reserved.</p>
+        </div>
+    </div>
+    <script>
+        document.getElementById('startBtn').addEventListener('click', function() {
+            window.location.href = 'game.html';
+        });
+    </script>
+</body>
+</html>
